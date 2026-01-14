@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        function CaclArea(length, width){
+            area = length*width;
+            console.log(area);
+        }
+        CaclArea(7, 8);
+        CaclArea(7, 5);
+        CaclArea(23, 5);
+        CaclArea(1, 9);
+        CaclArea(4, 4);
+
+        const bahubali = function(time, order) {
+            if (order == "Rajmata"){
+                console.log(`${order} ordered Kattappa to killed BahuBali ${time} times`)
+            }
+        }
+        bahubali(3,"Rajmata")
+        bahubali(4,"Bhallaldev")
+        bahubali(6,"Rajmata")
+        bahubali(98,"Rajmata")
+
+        //3. Arrow function
+        const hello2 = () => console.log("hello " + "HUEHUE")
+        hello2()
+    </script>
+</body>
+</html>
