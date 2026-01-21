@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+        
+const student = {
+    name: "Lakshay",
+    age: 18,
+    course: "B.Tech"
+}
+console.log(`Student Name: ${student.name}, Age: ${student.age}, Course: ${student.course}`);
+student.name = "Goyal";
+console.log(`Updated Student Name: ${student.name}`);
+student.age += 1;
+console.log(`Updated Student Age: ${student.age}`);
+student.course = "M.Tech";
+console.log(`Updated Student Course: ${student.course}`);   
+
+console.table(student);
+
+        
+    </script>
+</body>
+</html>
