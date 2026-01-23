@@ -7,5 +7,13 @@
         "street": "123 Main St",
         "city": "Anytown",
         "zip": "12345"
+    },
+    "new": {
+        "name": "John",
+        "age": 30,
+        "car": null
     }
 }
+
+
+
