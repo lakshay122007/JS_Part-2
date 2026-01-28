@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    
+    <script>
+        //Array of Objects
+
+        const students = [
+            {
+                name: "L",
+                class: 12,
+                passed: true,
+                score: 20
+            },
+            {
+                name: "A",
+                class: 12,
+                passed: false,
+                score: 50
+            },
+            {
+                name: "K",
+                class: 12,
+                passed: true,
+                score: 30
+            },
+            {
+                name: "S",
+                class: 12,
+                passed: true,
+                score: 80
+            }
+        ]
+
+    console.log(students[0]) //accessing the objects in array in same way we access elements in array by indexing)
+    console.log(students[0].name) //accessing the values of objects in array.
+
+    //Rest opertins are same as we work with array, wether it is loop, getting object, etc.
+
+    //ex. loop
+
+    for (let i in students) {
+        console.log(students[i].score)
+    }
+
+    </script>
+
+</body>
+</html>
