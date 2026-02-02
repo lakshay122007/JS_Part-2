@@ -29,7 +29,7 @@ function multiply(a,b){
     console.log(a*b)
 }
 
-function operation(a,b,op) {  //higher order function
+function operation(a,b,op) {  //higher order function --> returns a function
     op(a,b)  //callback function
 }
 
