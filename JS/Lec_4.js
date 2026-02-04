@@ -37,3 +37,25 @@ function print1(word,num2){
 times("hello", 4)
 
 
+// <----------------------------------------------------------------------------------->
+
+
+function multiply(num){
+    return function double(num){
+        return num*2
+}
+}
+console.log(multiply()(8))
+
+
+// <----------------------------------------------------------------------------------->
+
+
+// function multiply(n){
+//     return double(n)
+// }
+// function double(num){
+//     return num*2
+// }
+
+// console.log(multiply(8))
