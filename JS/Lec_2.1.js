@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Objects</title>
-</head>
-<body>
-    
-    <script>
         //TODO Array of Objects
 
         const students = [
@@ -69,7 +59,3 @@
 
     const newNames = [...names, "E"]
     console.log(newNames)
-    </script>
-
-</body>
-</html>
