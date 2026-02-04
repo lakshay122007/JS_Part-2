@@ -37,3 +37,42 @@ operation(4,2,add)
 operation(4,2,subtract)
 operation(4,2,multiply)
 
+
+
+const names = ["Prachi", "Ramni", "Ayan", "Aryaman", "Muskan"];
+const scores = [80, 40, 10, 20, 90];
+
+// ["prachi", "Ramni", "Muskan"];
+// function namesAfterJ(arr){
+//     const newArr = [];
+//     for(let ele of arr) {
+//         if(ele[0] > 'J') {
+//             newArr.push(ele)
+//         }
+//     }
+//     console.log(newArr)
+// };
+
+function fun(arr,check ){
+    const newArr = [];
+    for(let ele of arr) {
+        if(check(ele)) {
+            newArr.push(ele)
+        }
+    }
+    console.log(newArr)
+};
+fun(names, checkGreaterJ);
+
+function checkGreater50(num){
+    if(num > 50){
+        return true
+    }
+    return false
+}
+function checkGreaterJ(name){
+    if(name[0] > 'J'){
+        return true;
+    }
+    return false;
+}
