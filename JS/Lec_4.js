@@ -59,3 +59,24 @@ console.log(multiply()(8))          //---------|
 // }
 
 // console.log(multiply(8))
+
+
+// <----------------------------------------------------------------------------------->
+
+
+
+//private variable
+
+function counter(){
+    let count = 0 //private(inaccessible) --> incaspulation
+    return function(){
+        count ++
+        console.log(count)
+    }
+}
+const count = counter()
+count() //1
+count() //2
+count() //3
+count() //4
+
