@@ -40,12 +40,12 @@ times("hello", 4)
 // <----------------------------------------------------------------------------------->
 
 
-function multiply(num){
-    return function double(num){
-        return num*2
-}
-}
-console.log(multiply()(8))
+function multiply(num){             //---------|
+    return function double(num){//             |       
+        return num*2//                         |----------->//THIS CONCEPT IS CALLED
+}//                                            |----------->//"CLOSURE"
+}//                                            |
+console.log(multiply()(8))          //---------|
 
 
 // <----------------------------------------------------------------------------------->
