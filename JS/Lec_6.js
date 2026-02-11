@@ -37,3 +37,32 @@ setTimeout(()=>{
 },0)
 console.log("F")
 
+
+//setInterval() - repeats a particular function after a certain interval of time
+
+let count = 0
+const id = setInterval(()=>{
+    console.log("HELLLO")
+    count ++
+    if (count == 5){
+        clearInterval(id)
+    }
+},2000)
+
+//console.log(id) - setintrval has its id, which it returns - 
+
+// Timeout {
+//   _idleTimeout: 2000,
+//   _idlePrev: [TimersList],
+//   _idleNext: [TimersList],
+//   _idleStart: 11,
+//   _onTimeout: [Function (anonymous)],
+//   _timerArgs: undefined,
+//   _repeat: 2000,
+//   _destroyed: false,
+//   Symbol(refed): true,
+//   Symbol(kHasPrimitive): false,
+//   Symbol(asyncId): 7,
+//   Symbol(triggerId): 1,
+//   Symbol(kAsyncContextFrame): undefined
+// }
