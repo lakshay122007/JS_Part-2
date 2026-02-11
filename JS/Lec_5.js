@@ -42,3 +42,6 @@ let res1 = countries.map(function(ele){
     return ele.replace('The ', '')
 })
 console.log(res1)
+
+
+//3) filter() - iterate through the array, and if a certain condition is met for that element, we return "true" and for that particular iteration, that element which return true gets appended or pushed in a new array.
