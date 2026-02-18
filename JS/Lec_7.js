@@ -66,3 +66,30 @@ console.log(prom)
 
 
 
+function solve(delay1, delay2, delay3) {
+    let p1 = setTimeout(()=>{
+        new Promise((resolve,reject) =>{
+        resolve(`Task 1 completed`)
+    })
+    },delay1)
+
+    let p2 = setTimeout(()=>{
+        new Promise((resolve,reject) =>{
+        resolve(`Task 2 completed`)
+    })
+    },delay2)
+
+    let p3 = setTimeout(()=>{
+        new Promise((resolve,reject) =>{
+        resolve(`Task 3 completed`)
+    })
+    },delay3)
+
+    Promise.all([p1,p2,p3])
+    .then((val) => console.log(val))
+    .catch((err) => console.log(err))
+
+}
+
+
+
