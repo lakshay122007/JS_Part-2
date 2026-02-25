@@ -48,5 +48,15 @@ console.log(res1)
 
 
 //4) sort() - used for sorting.
+// let arr = [11,3,45,6,5]
+// arr.sort()
+// console.log(arr); //[ 11, 3, 45, 45, 6 ] it aorts according to alphabatcial order, not normal sortigng
+
+let arr1 = [60,10,120,2]
+let res2 = arr1.sort((a,b)=>{
+    return a-b
+})
+
+console.log(res2);
 
 
