@@ -23,7 +23,7 @@
 // exec() 
 
 const api = "aaOoCHxkUbibcR5WFBRHaeU4vxz0q0PUL2npsSXN"
-const url = `https://api.nasa.gov/planetary/apod?api_key=${api}&date=`
+const url = `https://api.nasa.gov/planetary/apod?api_key=${api}&date=2024-01-25`
 
 async function getnasa(){
     const res = await fetch(url)
