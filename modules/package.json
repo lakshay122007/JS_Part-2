@@ -12,5 +12,6 @@
   "type": "commonjs",
   "dependencies": {
     "cli-color": "^2.0.4"
-  }
+  },
+  "devDependencies": {}
 }
