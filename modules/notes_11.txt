@@ -1,0 +1,8 @@
+npm create vite@latest my-app -- --template react
+
+//react : SPA : Single Page Application
+//MPA : multi page Application
+// React : Javascript library
+//component based
+//dom : Document Object Model
+//node Object
